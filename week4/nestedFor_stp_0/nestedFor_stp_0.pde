@@ -9,10 +9,6 @@ void setup() {
   rad = 8;
 }
 
-void mousePressed() {
-  loop();
-}
-
 void draw() {
   background(0);
 

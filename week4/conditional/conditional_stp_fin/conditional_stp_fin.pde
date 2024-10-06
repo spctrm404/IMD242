@@ -18,7 +18,7 @@ void setup() {
 
 void keyPressed() {
   if(key == 'r' || key == 'R') {
-  stop = !stop;
+    stop = !stop;
   }
 }
 
