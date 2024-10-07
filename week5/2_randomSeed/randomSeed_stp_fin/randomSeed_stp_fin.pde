@@ -9,7 +9,11 @@ void setup() {
 }
 
 void mousePressed() {
-  randomSeed = int(random(3));
+  if (randomSeed == 0) {
+    randomSeed = 1;
+  } else {
+    randomSeed = 0;
+  }
 }
 
 void draw() {
