@@ -7,8 +7,6 @@ void setup() {
   for (int idx = 0; idx < fruitAmt.length; idx++) {
     fruitAmt[idx] = int(random(5, 100));
   }
-  
-  
 }
 
 float barWidth = 24;
@@ -23,7 +21,7 @@ void draw () {
   textAlign(CENTER);
   textSize(24);
   fill(255);
-  
+
   for (int idx = 0; idx < fruitAmt.length; idx++) {
     float x = graphBegin + idx * graphGap;
     line(x, height * 0.5, x, height * 0.5 - fruitAmt[idx]);
